@@ -24,7 +24,11 @@ body{
     background-color: #f9f9f9;
     padding: 10px 0;
 }
-
+@media screen and (max-width: 767px) {
+    .car-img img{
+        height: 210px;
+    }
+}
 @media screen and (max-width: 300px) {
     .logo{
         width: 120px;
