@@ -1,0 +1,32 @@
+body{
+    font-size: 13px;
+}
+.logo{
+    width: 170px;
+}
+.navbar-custom{
+    background-color: #1E4485;
+}
+.bi-round-shp {
+    border: solid 1px #fff;
+    border-radius: 50px;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+.navbar-custom2{
+    background-color: #FFC71A;
+}
+.footer{
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 300px) {
+    .logo{
+        width: 120px;
+    }
+}
