@@ -24,6 +24,14 @@ body{
     background-color: #f9f9f9;
     padding: 10px 0;
 }
+.custom-cards {
+    border: none;
+    box-shadow: 0px 1px 5px #dfdfdf;
+    text-decoration: none;
+}
+.custom-cards .bg-image img {
+    border-radius: 0.375rem 0.375rem 0 0;
+}
 @media screen and (max-width: 767px) {
     .car-img img{
         height: 210px;
