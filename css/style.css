@@ -28,6 +28,11 @@ body{
     border: none;
     box-shadow: 0px 1px 5px #dfdfdf;
     text-decoration: none;
+    min-height: 100%;
+}
+.custom-cards .card-title{
+    font-size: 1rem;
+    font-weight: 700;
 }
 .custom-cards .bg-image img {
     border-radius: 0.375rem 0.375rem 0 0;
