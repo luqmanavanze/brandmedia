@@ -47,6 +47,10 @@ body{
     right: 14px;
     top: 9px;
 }
+.iframe{
+    width: 100%;
+    min-height: 300px;
+}
 @media only screen and (min-width: 768px) and (max-width: 4000px) {
 .navbarul-lgsc {
     overflow-y: hidden;
@@ -62,6 +66,17 @@ body{
     }
     .copymodeltitle{
         padding-top: 12px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .navbar-custom .nav a{
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+@media screen and (max-width: 359px) {
+    .navbar-custom .nav a{
+        padding: 6px 7px;
     }
 }
 @media screen and (max-width: 300px) {
